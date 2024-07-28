@@ -1,7 +1,3 @@
-Here’s a README for your backend repository:
-
----
-
 # Skiplinow Backend
 
 This repository contains the backend implementation for the Skiplinow challenge.
