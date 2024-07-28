@@ -1,7 +1,3 @@
-Here’s a README for your backend repository:
-
----
-
 # Skiplinow Backend
 
 This repository contains the backend implementation for the Skiplinow challenge.
@@ -33,7 +29,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Create a `.env.development` file in the root directory of the project and add the following environment variables:
 
-   ```env
+   ```env.development
 	PORT=''
 	FIREBASE_CONFIG_API_KEY=''
 	FIREBASE_CONFIG_AUTH_DOMAIN=''
@@ -49,8 +45,8 @@ Before you begin, ensure you have met the following requirements:
 	GEMINI_API_KEY=''
    ```
 2. Because Twilio required to verify caller ID so, please make sure on your Twilio add you verified number to make sure twilio can send SMS to that number
-3. If you don't have a Firebase Admin SDK service account key, generate one from the Firebase console and add it to your `.env` file.
-4. For Gemini API key, go to this URL: https://ai.google.dev/gemini-api/docs/api-key and get you own key.
+3. If you don't have a Firebase Admin SDK service account key, generate one from the Firebase console and add it to your `.env.development` file.
+4. For Gemini API key, go to this URL: https://ai.google.dev/gemini-api/docs/api-key and get your own key.
 
 ## Running the Project
 
@@ -63,7 +59,7 @@ Before you begin, ensure you have met the following requirements:
    The backend should now be running on the port specified in your `.env.development` file.
    
 ## Note: This project require much time to setup so I've prepare a quickdemo vid:
-
+[Video demo](https://drive.google.com/file/d/1-Rso9G-W-qzYK1421MG8Vk-6kg8X-cMe/view?usp=sharing)
 
 ## License
 
@@ -74,5 +70,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or need further assistance, please open an issue on the GitHub repository or contact the repository owner.
 
 ---
-
-Feel free to customize this README further based on your project's specific requirements and structure.
