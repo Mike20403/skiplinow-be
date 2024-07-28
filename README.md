@@ -63,7 +63,7 @@ Before you begin, ensure you have met the following requirements:
    The backend should now be running on the port specified in your `.env.development` file.
    
 ## Note: This project require much time to setup so I've prepare a quickdemo vid:
-
+[Video demo](https://drive.google.com/file/d/1-Rso9G-W-qzYK1421MG8Vk-6kg8X-cMe/view?usp=sharing)
 
 ## License
 
