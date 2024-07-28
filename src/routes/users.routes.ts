@@ -3,10 +3,10 @@ import { checkAccessCodeController, generateAccessCodeController } from '~/contr
 import { checkCodeValidator, generateCodeValidator } from '~/middlewares/user.middlewares';
 import { wrapRequestHandler } from '~/utils/handlers';
 
-const usersRouter = Router();
+const usersRoute = Router();
 
-usersRouter.post('/generate', generateCodeValidator, wrapRequestHandler(generateAccessCodeController));
+usersRoute.post('/generate', generateCodeValidator, wrapRequestHandler(generateAccessCodeController));
 
-usersRouter.post('/check', checkCodeValidator, wrapRequestHandler(checkAccessCodeController));
+usersRoute.post('/check', checkCodeValidator, wrapRequestHandler(checkAccessCodeController));
 
-export default usersRouter;
+export default usersRoute;
